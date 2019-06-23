@@ -1,10 +1,9 @@
 package com.moo.taeim.addressbook.model;
 
-import org.springframework.hateoas.Link;
-import org.springframework.hateoas.ResourceSupport;
-
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import org.springframework.hateoas.Link;
+import org.springframework.hateoas.ResourceSupport;
 
 public class User extends ResourceSupport {
 

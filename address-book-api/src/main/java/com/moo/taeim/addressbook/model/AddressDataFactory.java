@@ -1,12 +1,12 @@
 package com.moo.taeim.addressbook.model;
 
-import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
-import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
+import com.moo.taeim.addressbook.controller.AddressController;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.moo.taeim.addressbook.controller.AddressController;
+import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
+import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
 
 
 /**

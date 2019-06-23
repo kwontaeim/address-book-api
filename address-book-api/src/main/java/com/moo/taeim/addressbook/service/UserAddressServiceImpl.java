@@ -1,14 +1,13 @@
 package com.moo.taeim.addressbook.service;
 
-import java.util.List;
-import java.util.stream.Collectors;
-
-import org.springframework.stereotype.Service;
-import org.springframework.util.StringUtils;
-
 import com.moo.taeim.addressbook.model.AddressDataFactory;
 import com.moo.taeim.addressbook.model.User;
 import com.moo.taeim.addressbook.model.UserAddress;
+import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class UserAddressServiceImpl implements UserAddressService {
