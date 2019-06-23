@@ -1,21 +1,25 @@
 package com.moo.taeim.addressbook.model;
 
+import org.springframework.hateoas.Link;
 import org.springframework.hateoas.ResourceSupport;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class User extends ResourceSupport {
 
     private int userNumber;
     private String firstName;
     private String surname;
+    private Link link;
 
     @JsonCreator
-    public User(int userNumber, String firstName, String surname) {
+    public User(int userNumber, String firstName, String surname, @JsonProperty("linkToDetail")Link link) {
         super();
         this.userNumber = userNumber;
         this.firstName = firstName;
         this.surname = surname;
+        this.link = link;
     }
 
     public int getUserNumber() {
@@ -37,6 +41,13 @@ public class User extends ResourceSupport {
     }
     public void setSurname(String surname) {
         this.surname = surname;
+    }
+
+    public Link getLink() {
+        return link;
+    }
+    public void setLink(Link link) {
+        this.link = link;
     }
 
 
