@@ -15,4 +15,4 @@ This is a Spring Boot project built with Maven 4 and Java 8. So, after you clone
 
 ## What to expect to see
 
-When you run the application a Address Book API will be exposed under the URI `http://localhost:8080/addresses?surname={surname}`. You can type this URI on your favourite browser to see the customers that are already registered. If the customer that you would like to search by surname exists, you can also see the 'hyper link' that calls another api to get the full customer's detail. 
+When you run the application a Address Book API will be exposed under the URI `http://localhost:8080/addresses?surname={surname}`. You can type this URI on your favourite browser to see the customers that are already registered `(ex. Kwon, Barnet, Ahn, Hwang)`. If the customer that you would like to search by surname exists, you can also see the 'hyper link' that calls another api to get the full customer's detail. 
