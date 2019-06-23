@@ -4,7 +4,7 @@ A test implementation of a REST API using Spring Boot, Java 8.
 
 ## How to run the application
 
-This is a Spring Boot project built with Maven 4 and Java 8. So, after you clone it, you can follow [Spring Boot instructions](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-running-your-application.html) and run the phone book with one of the following 3 ways:
+This is a Spring Boot project built with Maven 4 and Java 8. So, after you clone it, you can follow [Spring Boot instructions](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-running-your-application.html) and run the address book application with one of the following 3 ways:
 
 * Type `mvn spring-boot:run` in your console, to use the Maven plugin.
 * Build the project with `mvn install` and then run it as a packaged application with `java -jar target/address-book-api-1.0-SNAPSHOT.jar`.
